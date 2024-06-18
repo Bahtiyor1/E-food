@@ -1,0 +1,423 @@
+body {
+    background-color: #f9f9f9a3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 54px 134.5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_panel {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.list_navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.list_navbar>li>a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    color: #363853;
+    transition: all 0.5s; 
+}
+
+
+.list_navbar > .home_default > a {
+    color:#FF7A50;
+}
+
+.list_navbar > li > a:hover {
+    color: #FF7A50;
+    transition: all 0.5s;
+}
+
+.buyer_wrapper {
+    position: relative;
+}
+
+.buy_count {
+    width: 14px;
+    height: 14px;
+    background-color: #FF7A50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+
+.buy_count>p {
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;   
+}
+
+.btn_singUp {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7A50;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn_singUp:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text_case{
+    margin-top: 220.23px;
+}
+
+.color {
+    color: #FF7A50;
+}
+
+.text_case > h1 {
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    color: #363853;
+}
+
+.text_case>p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    color: #363853;
+}
+
+.Dostavshik_img {
+    margin-top: 104.77px;
+}
+
+.App{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.App > button {
+    width: 163px;
+    height: 50.41px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7A50;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: white;   
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.App > button:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+.App > a {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: #363853;   
+}
+
+.reklama {
+    margin: 0 136px 44px 92px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text_reklam {
+    width: 449px;
+    height: 497px;
+}
+
+.text_reklam > h1 {
+    width: 384px;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #363853;
+    margin-top: 185.46px;
+}
+
+.text_reklam > p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+    margin: 95px 0 141px 0;
+}
+
+.text_reklam > button {
+    width: 176px;
+    height: 58px;
+    border-radius: 30px 30px 1px 30px;
+    border: none;
+    background-color: #FF7A50;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: white;
+    cursor: pointer; 
+    transition: all 0.5s;
+}
+
+.text_reklam > button:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+main > section > h2 {
+    text-align: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 44px;   
+}
+
+.wrapper_food {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 135.5px 155px 135.5px;
+    gap: 70px;
+}
+
+.back_color {
+    padding: 22px 39px 22px 20px;
+}
+
+.wrapper_food > .food {
+    background-color: white;
+    height: 417px;
+    border-radius: 0 0 53px 5px;
+}
+
+.food > .back_color > p {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+}
+
+.grafic {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.grafic > img {
+    margin-right: 8px;
+}
+
+.grafic > p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #363853;
+    margin-right: 30px;    
+}
+
+.grafic > button {
+    width: 79px;
+    height: 33px;
+    background-color: #FF7A50;
+    box-shadow: 0px 5px 12px 0px #FF683830;
+    border: none;
+    border-radius: 20px 20px 0 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.grafic > button:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+
+.App_download {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_app {
+    width: 538px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    margin: 145px 20px 263px 167px;
+    row-gap: 30px;
+}
+
+.text_app > h2 {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #363853;
+}
+
+.text_app > p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;    
+}
+
+.Apps {
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.App_3_phone {
+    margin:0 118px 0 0;
+}
+
+
+.Comment {
+    margin: 0 135px 103px 170px;
+    width: 1170px;
+    height: 312px;
+    background-color: #FF7A50;
+    background-image: url(assect/img/Mask\ Group.png);
+    border-radius: 15px;
+}
+
+.Wrapper > h2  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 59px 0 0 0;
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    color: white;    
+}
+
+.comment > input {
+    width: 838.5px;
+    height: 78px;
+    box-shadow: 10px 24px 54px 0px #00000012;
+    border: none;
+    border-radius: 70px;
+    padding: 24.55px 0 24.55px 43.25px;
+    outline: none;
+}
+
+.comment > input::placeholder {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#363853;    
+}
+
+.comment {
+    margin: 72.45px 165.75px 56.55px;
+    display: flex;
+    position: relative;
+}
+
+.comment > button {
+    width: 191.1px;
+    height: 58.5px;
+    border-radius: 70px;
+    border: none;
+    background-color: #FF7A50;
+    color: white;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;    
+    position: absolute;
+    right: 12.5px;
+    top: 9.55px;
+}
+
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 68px;
+}
+
+.navi > ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    cursor: pointer;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #646464;    
+}
+
+.Ofera {
+    color:#646464;
+}
+
+
